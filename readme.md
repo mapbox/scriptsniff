@@ -2,7 +2,7 @@ scriptsniff
 -----------
 Detect scripts used in a string based on unicode character ranges (and supplementary logic).
 
-- Categorizes unicode ranges between 0-65535 as one of 66 scripts.
+- Categorizes unicode ranges between 0-65535 as one of [66 scripts](https://github.com/mapbox/scriptsniff/blob/master/lib/scripts.json).
 - Considers punctuation, numerals, currency symbols, and other unicode ranges script-agnostic.
 - Treats all Latin ranges as a single script ("Latin").
 - Treats all CJK ranges as a single script ("CJK").
