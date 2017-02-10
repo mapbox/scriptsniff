@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/scriptsniff",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Detect scripts used in a string based on unicode character ranges (and supplementary logic)",
   "main": "index.js",
   "engines": {
